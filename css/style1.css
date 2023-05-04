@@ -1,0 +1,883 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+#particles-js {
+   background: linear-gradient(rgba(7, 45, 1, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../img/action-img.jpg") !important; 
+    background-repeat: no-repeat;
+    background-size: cover!important;
+
+}
+/* navbar------------- */
+.navbar {
+  color: transparent;
+  position: absolute;
+}
+.navbar-brand {
+  margin-left: 10rem;
+  color: white;
+  font-size: 25px;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.navbar-nav {
+  margin-left: 13rem;
+}
+.login {
+  margin-left: 15rem;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.nav-link:hover {
+  color: #45b44d;
+}
+
+.n-icon {
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.n-icon:hover {
+  background-color: #45b44d;
+  border: none;
+}
+/* about me----------------- */
+.text {
+  width: 600px;
+  height: 400px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+
+.img {
+  background: url("../img/uuuuu.png");
+  height: 180px;
+  width: 180px;
+  background-size: cover;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+/* text animation---------------- */
+.posts {
+  font-size: 40px;
+  color: #45b44d;
+  margin-left: 10px;
+}
+
+.about {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(155, 155, 155);
+}
+
+.cv {
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #45b44d;
+  color: rgb(244, 244, 244);
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+
+.cv:hover {
+  background-color: #2a8630;
+  transition: ease-in-out .4s;
+}
+/* about me----------------- */
+
+
+/* my info start here---------------- */
+.about-me
+{
+  background-color:rgb(0, 0, 0);
+}
+
+ .my-img
+{
+padding-left: 13rem;
+} 
+
+.dipto
+{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+.my-info
+{
+ padding-top: 5rem;
+ padding-right: 10rem;
+
+}
+.name
+{
+  font-size: 25px;
+  color: #45b44d;
+  margin-bottom: 18px;
+}
+
+.my-post
+{
+  color: white;
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+.work-info
+{
+  font-size: 15px;
+  color: rgb(206, 206, 206);
+  margin-bottom: 25px;
+  margin-top: 25px;
+  line-height: 23px;
+  font-weight: 700;
+  
+}
+.portfolio
+{
+  padding: 7px 15px 7px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #45b44d;
+  color: white;
+  margin-top: 10px;
+}
+.portfolio:hover
+{
+  background-color: #2a8630;
+}
+/* my info end here---------------- */
+
+
+/* hobby and interest start  here----------------- */
+.hobby
+{
+  background-color: rgb(0, 0, 0);
+}
+.hobby-heading
+{
+  text-align: center;
+}
+.hob-int
+{
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  
+}
+
+.underline-icon
+{
+  height: 3px;
+  width: 100px;
+  background-color: #2a8630;
+  margin: auto;
+
+}
+.sec-info-detail
+{
+  font-size: 17px;
+  color: white;
+  
+}
+
+
+/* all hobies start here-------------- */
+.logoandname
+{
+   border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(9, 9, 9);
+}
+
+.logoandname:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out 0.4s;
+
+}
+
+.hobby-logo
+{
+  border: 1px solid rgb(31, 31, 31);
+  padding: 15px;
+  background-color: rgb(9, 9, 9);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+  .hobby-logo1
+  {
+    font-size: 20px;
+    color: white;
+  }
+  .hobby-logo1:hover
+{
+  color: #45b44d;
+}
+.hobby-name
+{
+  
+  padding: 12px 112px 5px 15px;
+  background-color: rgb(9, 9, 9);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.hobby-name1
+{
+  font-size: 20px;
+  color: white;
+}
+.hobby-name1:hover
+{
+  color: #45b44d;
+}
+/* all hobies end here-------------- */
+
+/* hobby and interest  end here----------------- */
+
+
+/* our popuarity start here------------------ */
+.popularity
+{
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/key3.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+ background-attachment: fixed;
+}
+
+
+.counter-icon1
+{
+  font-size: 32px;
+  color: #45b44d;
+
+}
+.demo1
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo2
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo3
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+.demo4
+{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.clint-feeling
+{
+  font-size: 20px;
+
+}
+/* our popurarity end here------------------ */
+
+
+
+/* OFFER START HERE------------ */
+.my-offers
+{
+  background-color: black;
+}
+.all-offers
+{
+ gap: px;
+}
+.first-offer
+{
+ 
+  padding: 50px;
+  border-radius: 5px;
+}
+.first-offer:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out 0.4s;
+ 
+}
+.offer-logo1
+{
+  font-size: 32px;
+  color: #45b44d;
+}
+
+.offer-name1
+{
+  font-size: 20px;
+  color: white;
+}
+.offer-info1
+{
+  font-size: 15px;
+  color: rgb(143, 143, 143);
+}
+/* OFFER START HERE------------ */
+
+/* work perticipation start here---------------------- */
+.work-perticipation
+{
+  background-color: black;
+}
+
+.participation-name
+{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 8px;
+}
+.participation-post
+{
+  font-size: 15px;
+  color: rgb(193, 193, 193);
+  margin-bottom: 8px;
+}
+.participation-detail
+{
+  font-size: 15px;
+  color: rgb(137, 137, 137);
+}
+/* left block------------------- */
+
+.left-block1
+{
+  margin-top: 6rem;
+  margin-bottom: 20px;
+
+}
+.left-block11
+{
+  margin-top: 5rem;
+  margin-bottom: 20px;
+
+}
+.year
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #171717;
+  padding: 5px;
+  margin-left: 31rem;
+  border-radius: 5px;
+}
+.validity
+{
+ color: white;
+ text-align: center;
+ font-size: 18px;
+ padding-top: 3px;
+
+}
+
+.left-block2
+{
+  border: 1px solid #171717;
+  text-align: end;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-right: -5.5rem;
+  margin-top: 11.5rem;
+  
+}
+.left-block2:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out 0.4s;
+}
+/* left block------------------- */
+
+/* middle block----------------------- */
+.middle-block
+{
+  text-align: center;
+}
+.star-icon
+{
+  font-size: 40px;
+  color: #45b44d;
+}
+.circle-icon
+{
+  font-size: 20px;
+  color: #45b44d;
+}
+
+
+.devider1
+{
+ 
+  width: 5px;
+  height: 70px;
+  background-color: #45b44d;
+  margin: auto;
+  border-radius: 20px;
+
+
+}
+.devider2
+{
+ 
+  width: 5px;
+  height: 200px;
+  background-color: #45b44d;
+  margin: auto;
+  border-radius: 20px;
+
+
+}
+.devider3
+{
+ 
+  width: 5px;
+  height: 200px;
+  background-color: #45b44d;
+  margin: auto;
+  border-radius: 20px;
+
+
+}
+.devider4
+{
+ 
+  width: 5px;
+  height: 200px;
+  background-color: #45b44d;
+  margin: auto;
+  border-radius: 20px;
+
+
+}
+.devider5
+{
+ 
+  width: 5px;
+  height: 200px;
+  background-color: #45b44d;
+  margin: auto;
+  border-radius: 20px;
+
+}
+/* middle block----------------------- */
+
+
+/* right block-------------------------- */
+
+.right-block1
+{
+ 
+  margin-bottom: 50px;
+  margin-top: 5rem;
+  
+}
+.year1
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #171717;
+  padding: 5px;
+  margin-left: -5.5rem;
+  border-radius: 5px;
+}
+
+.right-block2
+{
+  border: 1px solid #171717;
+  text-align: start;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: -5.5rem;
+  margin-top: 6rem;
+}
+.right-block2:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out 0.4s;
+}
+.right-block22
+{
+  border: 1px solid #171717;
+  text-align: start;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: -5.5rem;
+  margin-top: 0rem;
+}
+.right-block22:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out 0.4s;
+}
+
+/* right block-------------------------- */
+
+/* work perticipation start here---------------------- */
+
+
+
+/* expertise start here----------------------------- */
+.work-expertise
+{
+  background-color: black;
+}
+
+.accordion-item
+{
+  color: white;
+  background-color: black;
+}
+.accordion-button
+{
+  color: white!important;
+  background-color: black!important;
+  
+}
+
+.accordion-collapse
+{
+  box-shadow: 0px 0px 10px 10px #2a8630;
+  margin-top: .7rem;
+  margin-bottom: .7rem;
+  
+}
+.progress-bar
+{
+  background-color: #45b44d;
+}
+
+
+/* expertise end here----------------------------- */
+
+
+
+/* portfolio start here----------------------- */
+
+.portfolio1
+{
+  background-color: black;
+}
+
+
+.portfolio-img1
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin:5px;
+    margin-bottom:15px;
+}
+.portfolio-img1:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out .8s;
+
+}
+
+/* portfolio end here----------------------- */
+
+
+
+/* clint--------------------------- */
+.clint-comment
+{
+  background-color: rgb(0, 0, 0);
+}
+.clint-say
+{
+  font-size: 17px; 
+  color: rgb(129, 129, 129);
+ 
+}
+
+.slider-content
+{
+  font-size: 20px;
+}
+
+.card-body
+{
+  background-color: rgb(7, 7, 7);
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} 
+
+.clint-feature
+{
+  gap: 13px;
+  
+}
+
+.card
+{
+  background-color: rgb(7, 7, 7);
+}
+
+/* latest news and blogs start here-------------- */
+.latest-news-blog
+{
+  background-color: rgb(0, 0, 0);
+}
+.card-img-top
+{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card1
+{
+  color: white;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 10px;
+}
+.card1:hover
+{
+  box-shadow: 0px 0px 10px 5px #2a8630;
+  transition: ease-in-out .8s;
+}
+.name-brand
+{
+  gap: 224px;
+  margin-bottom: 20px;
+}
+.read-blog
+{
+  gap: 177px;
+}
+.blog-icons
+{
+  font-size: 15px;
+  margin-right: 5px;
+}
+.nb-read
+{
+  font-size: 15px;
+  color: rgb(177, 177, 177);
+}
+.nb-read:hover
+{
+  color: #45b44d;
+}
+
+.card-text1
+{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.date-icon
+{
+  margin-right: 5px;
+  font-size: 14px;
+
+}
+.all-dates
+{
+  font-size: 14px;
+  color: white;
+}
+.more-icon
+{
+  margin-left: 5px;
+}
+/* latest news and blogs end here---------------------------------- */
+
+
+
+/* availablity start here------------------------------------------- */
+.available
+{
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("../img/av-img.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+ background-attachment: fixed;
+}
+
+.able {
+  margin-top: 15px;
+  padding: 13px 25px 13px 25px;
+  border-radius: 10px;
+  background-color: #45b44d;
+  color: rgb(244, 244, 244);
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+
+.able:hover
+{
+  background-color: #2a8630;
+  transition: ease-in-out .4s;
+}
+
+/* availablity end here------------------------------------- */
+
+/* my contact start here------------------------------------- */
+.my-contact
+{
+  background-color: black;
+}
+.contact-icon
+{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 13px;
+}
+.phone
+{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 13px;
+}
+.phone-detail
+{
+  font-size: 17px;
+  color: rgb(144, 144, 144);
+  margin-bottom: 13px;
+}
+.nel
+{
+  font-size: 17px;
+  color: #45b44d;
+}
+.nel:hover
+{
+  color: #2a8630;
+}
+
+
+/* clint info start here-------------------- */
+.clint-info
+{
+  width: 100%;
+  padding: 17px 10px 17px 15px;
+  border-radius: 10px;
+  border: none;
+}
+.clint-messege
+{
+  width: 100%;
+  padding: 15px 15px 165px 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.clint-info[type="text"]::-webkit-input-placeholder
+{
+font-size: 15px;
+}
+.clint-info[type="email"]::-webkit-input-placeholder
+{
+font-size: 15px;
+}
+.clint-messege[type="text"]::-webkit-input-placeholder
+{
+font-size: 15px;
+}
+.send 
+{
+  margin-top: 15px;
+  padding: 13px 25px 13px 25px;
+  border-radius: 10px;
+  background-color: #45b44d;
+  color: rgb(244, 244, 244);
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  float: right;
+}
+.send:hover
+{
+  background-color: #2a8630;
+  transition: ease-in-out .4s;
+}
+/* clint info end here-------------------- */
+
+
+
+/* main-footer start here------------------------------------ */
+.main-footer
+{
+  background-color: #0a0a0a;
+}
+.footer-icon
+{
+padding: 10px;
+color: white;
+border: 1px solid white;
+border-radius: 10px;
+font-size: 10px;
+margin: 2px;
+}
+.footer-icon:hover
+{
+background-color: #45b44d;
+}
+
+.footer-tagline
+{
+    font-size: 17px;
+    color: white;  
+}
+/* main-footer start here------------------------------------ */
+
+
+/* modal start here------------- */
+.modal-content
+{
+  background-color: rgb(35, 35, 35);
+}
+.modal-phone1:hover
+{
+background-color: rgb(11, 41, 3);
+}
+.modal-phone1
+{
+padding: 5px;
+}
+.phone-1
+{
+  font-size: 25px;
+  color: rgb(108, 108, 108);
+  margin-bottom: 5px;
+}
+/* modal start here------------- */

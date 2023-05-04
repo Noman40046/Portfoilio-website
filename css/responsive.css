@@ -1,0 +1,153 @@
+@media (max-width: 576px) {
+  .navbar-nav {
+    margin-left: 0rem;
+  }
+  .navbar-brand {
+    margin-left: 0rem;
+  }
+  .login {
+    margin-left: 0rem;
+  }
+  .navbar-toggler {
+    margin-left: 9rem;
+    
+  }
+  .nav-link {
+    color: white;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+
+  .n-icon {
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .text {
+    width: 400px;
+    height: 300px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+  }
+
+  .img {
+    background: url("../img/uuuuu.png");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+  }
+  .my-img
+  {
+  padding-left: 2rem;
+  }
+  .dipto
+{
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.my-info
+{
+ padding-top: 5rem;
+ padding-right: 0rem;
+ padding: 2rem;
+
+}
+.counter-section
+{
+  margin-bottom: 60px;
+}
+.middle-block
+{
+  display: none;
+}
+.year
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #171717;
+  padding: 5px;
+  margin-left: 0rem;
+  border-radius: 5px;
+}
+.year1
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #171717;
+  padding: 5px;
+  margin-left: 0rem;
+  border-radius: 5px;
+}
+.left-block1
+{
+  margin-top: 2rem;
+  margin-bottom: 20px;
+
+}
+.left-block2
+{
+  border: 1px solid #171717;
+  text-align: end;
+  margin-bottom: 0px;
+  padding: 20px;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  
+}
+.right-block2
+{
+  border: 1px solid #171717;
+  text-align: start;
+  margin-bottom: 0px;
+  padding: 20px;
+  margin-left: 0rem;
+  margin-top: 6rem;
+}
+.right-block22
+{
+  border: 1px solid #171717;
+  text-align: start;
+  margin-bottom: 0px;
+  padding: 20px;
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+.right-block1
+{
+ 
+  margin-bottom: 70px;
+  margin-top: 1rem;
+  
+}
+.name-brand
+{
+  gap: 190px;
+  margin-bottom: 20px;
+}
+.read-blog
+{
+  gap: 150px;
+}
+.contact-details
+{
+  margin-bottom: 50px;
+}
+
+}
